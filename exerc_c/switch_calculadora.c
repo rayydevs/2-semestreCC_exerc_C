@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
-Crie uma calculadora usando a instrução SWITCH, que pergunte qual das operações
-básicas quer fazer (+, -, * e /), em seguida peça os dois números e mostre o resultado da
-operação matemática entre eles.
+Crie uma calculadora usando a instruÃ§Ã£o SWITCH, que pergunte qual das operaÃ§Ãµes
+bÃ¡sicas quer fazer (+, -, * e /), em seguida peÃ§a os dois nÃºmeros e mostre o resultado da
+operaÃ§Ã£o matemÃ¡tica entre eles.
 */
 
 int main(){
 	char operacao;
 	float num1, num2;
-	printf("Escolha a operação[+ - * /]:");
+	printf("Escolha a operaÃ§Ã£o[+ - * /]:");
 	scanf("%c", &operacao);
 	
 	printf("Escolha o primeiro valor:");
@@ -35,7 +35,7 @@ int main(){
 			break;
 			
 		default:
-			printf("Você digitou uma operação inválida.");
+			printf("VocÃª digitou uma operaÃ§Ã£o invÃ¡lida.");
 			
 	}	
 }
