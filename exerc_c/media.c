@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//Faça um programa para calcular a média de 5 números (ponto flutuante).
+//FaÃ§a um programa para calcular a mÃ©dia de 5 nÃºmeros (ponto flutuante).
 
 int main(){
 	float num1, num2, num3, num4, num5, media;
@@ -18,6 +18,6 @@ int main(){
 	
 	media = (num1 + num2 + num3 + num4 + num5) / 5;
 	
-	printf("A media dos 5 numeros é %.2f", media);
+	printf("A media dos 5 numeros Ã© %.2f", media);
 
 }
