@@ -6,7 +6,7 @@ int main ()
 char x;
 float a, b ;
 float result = 0.0;
-printf ("\n Informe os 2 números e a operação ");
+printf ("\n Informe os 2 nÃºmeros e a operaÃ§Ã£o ");
 scanf ("%f %f %c", &a, &b, &x);
 switch (x)
 {
