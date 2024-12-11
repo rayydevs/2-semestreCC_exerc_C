@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /*
-Calcular a diferenÁa, o produto, o quociente ou a soma de dois n˙meros, dependendo da operaÁ„o escolhida e imprimir o
+Calcular a diferen√ßa, o produto, o quociente ou a soma de dois n√∫meros, dependendo da opera√ß√£o escolhida e imprimir o
 resultado.
 */
 
 int main(){
 	char x;
 	float a, b, result;
-	printf("Informe o c·lculo que deseja realizar:");
+	printf("Informe o c√°lculo que deseja realizar:");
 	scanf("%f %c %f", &a, &x, &b);
 	
 	switch(x) {
@@ -21,7 +21,7 @@ int main(){
 		case'/': result = a / b;
 		break;
 		default:
-			printf("OperaÁ„o inv·lida.");	
+			printf("Opera√ß√£o inv√°lida.");	
 	}
-	printf("O resultado da operaÁ„o È %.0f", result);
+	printf("O resultado da opera√ß√£o √© %.0f", result);
 }
