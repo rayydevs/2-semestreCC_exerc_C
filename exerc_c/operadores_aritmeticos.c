@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-//Este programa demonstra a funcionalidade dos operadores aritméticos em C.
+//Este programa demonstra a funcionalidade dos operadores aritmÃ©ticos em C.
 
 int main (){
 	
