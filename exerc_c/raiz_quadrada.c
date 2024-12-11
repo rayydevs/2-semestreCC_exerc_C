@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-//Faça um programa para calcular a raiz quadrada de um número qualquer (ponto flutuante).
+//FaÃ§a um programa para calcular a raiz quadrada de um nÃºmero qualquer (ponto flutuante).
 
 int main(){
 	float raiz, num;
@@ -10,6 +10,6 @@ int main(){
 	scanf("%f", &num);
 	raiz = sqrt(num);
 	
-	printf("A raiz de %f é %.1f", num, raiz);
+	printf("A raiz de %f Ã© %.1f", num, raiz);
 
 }
