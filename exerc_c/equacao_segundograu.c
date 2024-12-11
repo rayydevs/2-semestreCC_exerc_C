@@ -2,17 +2,17 @@
 #include <math.h>
 
 /*
-Faça um programa para calcular as raízes de uma equação do 2o grau.
+FaÃ§a um programa para calcular as raÃ­zes de uma equaÃ§Ã£o do 2o grau.
 OBS.:
 
-Será necessária usar a diretiva #include<math.h> que contém funções matemáticas.
+SerÃ¡ necessÃ¡ria usar a diretiva #include<math.h> que contÃ©m funÃ§Ãµes matemÃ¡ticas.
 
-A sintaxe da função raiz quadrada é sqrt( )
+A sintaxe da funÃ§Ã£o raiz quadrada Ã© sqrt( )
 
-A sintaxe da função potência é pow(x,y)
+A sintaxe da funÃ§Ã£o potÃªncia Ã© pow(x,y)
 delta>0= 2raizes
 delta=0=1raiz
-delta<0=não existe raiz real
+delta<0=nÃ£o existe raiz real
 */
 
 int main(){
@@ -26,15 +26,15 @@ int main(){
 	
 	delta = (pow(b,2) - 4*a*c); //calcula o delta
 	if (delta<0){
-		printf("Não existe raiz real");
+		printf("NÃ£o existe raiz real");
 	}else{
 		if(delta==0){
 			raiz1 = -b/(2*a);
-			printf("A raiz é: %f", raiz1);
+			printf("A raiz Ã©: %f", raiz1);
 		}else{
 			raiz1 = (-b+sqrt(delta))/ (2*a);
 			raiz2 = (-b-sqrt(delta))/ (2*a);
-			printf("Os valores das raizes são: %f %f", raiz1, raiz2);
+			printf("Os valores das raizes sÃ£o: %f %f", raiz1, raiz2);
 		}
 	}
 }
